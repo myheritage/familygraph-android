@@ -1,0 +1,18 @@
+This open source Java library allows you to integrate MyHeritage Family Graph into your Android application. Except as otherwise noted, the MyHeritage Family Graph Android SDK is licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.html)
+
+Getting Started
+===============
+
+1. For the first time, you will need to create a new Android project for the MyHeritage Family Graph Android SDK source which can be reference from your app. This is only required once. Open Eclipse and create a new Android Project (File | New | Project | Android Project) for the MyHeritage Family Graph Android SDK source and later reference it from your app. Get the content by selecting Create project from existing source and specifying the familygraph directory from your git repository (~/myheritage-familygraph-android-sdk/familygraph).
+
+2. Create a new Android project for your app or use our existing simple sample project from your git repository (~/myheritage-familygraph-android-sdk/samples/simple) and add a reference to the MyHeritage Family Graph Android SDK project. You do this by opening the properties window for your app (File | Properties | Android), pressing the Add... button in the Library area and selecting the MyHeritage Family Graph Android SDK project created above.
+
+Sample Applications
+===================
+
+This library includes one sample application to guide you in development.
+* __simple__: A bare-bones app that demonstrates authorization, making API calls, and invoking a dialog.
+
+Report Issues/Bugs
+==================
+http://www.familygraph.com/contact
