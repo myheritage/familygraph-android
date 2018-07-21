@@ -22,10 +22,6 @@ allprojects {
     }
 }
 
-ext {
-	compileSdkVersion = 27
-}
-
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
